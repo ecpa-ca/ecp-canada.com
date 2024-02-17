@@ -3,18 +3,9 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: /#top
+  - name: ECPA.ca
+    url: https://www.ecpa.ca/
     weight: 10
-  - name: Features
-    url: /#features
+  - name: Archive (2005–2022)
+    url: https://archive.ecpa.ca/
     weight: 20
-  - name: Solutions
-    url: /#solutions
-    weight: 30
-  - name: Resources
-    weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
